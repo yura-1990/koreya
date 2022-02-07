@@ -1,0 +1,52 @@
+@media(max-width: 1110px) {
+  .nike {
+    flex-direction: column;
+  }
+
+  .nike__right {
+    margin-left: 0;
+  }
+
+  .nike__left {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nike__item {
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 1050px) {
+  .nike__right {
+    justify-content: space-around;
+  }
+}
+
+@media(max-width: 790px) {
+  .menu {
+    display: flex;
+    z-index: 2;
+  }
+
+  .header__list {
+    position: fixed;
+    width: 150px;
+    flex-direction: column;
+    right: -100%;
+    top: 0;
+    justify-content: center;
+    height: 100vh;
+    background-color: #322E41;
+    z-index: 1;
+    transition: 0.4s linear;
+  }
+}
+
+@media(max-width: 555px) {
+  .nike__left,
+  .nike__left>img{
+    width: 100%;
+  }
+  
+}
